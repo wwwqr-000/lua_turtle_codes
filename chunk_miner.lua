@@ -1,3 +1,4 @@
+https://pastebin.com/raw/fudv3fVY
 function checkDirection(direction)
     if direction == true then
         turtle.turnRight()
