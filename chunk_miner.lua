@@ -1,46 +1,168 @@
-https://pastebin.com/raw/fudv3fVY
-function checkDirection(direction)
-    if direction == true then
-        turtle.turnRight()
-    else
-        turtle.turnLeft()
-    end
-end
- 
-direction = true
-while (1 > 0) do
-    a = 0
-    repeat
-        i = 0
-        repeat
-            turtle.dig()
-            turtle.forward()
-            i = i + 1
-        until (i > 8)
-        if a < 9 then
-            checkDirection(direction)
-            turtle.dig()
-            turtle.forward()
-            checkDirection(direction)
-            if direction == true then
-                direction = false
-            else
-                direction = true
-            end
-        else
-            print("Stopped")
-        end
-        a = a + 1
-    until (a > 9)
-    turtle.turnRight()
-    j = 0
-    repeat
-        turtle.forward()
-        j = j + 1
-        print(j)
-    until (j >= 9)
-    turtle.turnRight()
+(g3NVe5p1)
+print("by wwwqr")
+local a = 16
+local b = 15
+local diep = 10
+for i = diep,1,-1
+do
+for i = a,1,-1
+do
+    turtle.refuel(64)
     turtle.digDown()
-    turtle.down()
-    direction = true
+    turtle.forward()
+end
+turtle.turnRight()
+turtle.digDown()
+turtle.forward()
+turtle.turnRight()
+for i = b,1,-1
+do
+    turtle.refuel(64)
+    turtle.digDown()
+    turtle.forward()
+end
+turtle.turnLeft()
+turtle.digDown()
+turtle.forward()
+turtle.turnLeft()
+for i = b,1,-1
+do
+    turtle.refuel(64)
+    turtle.digDown()
+    turtle.forward()
+end
+turtle.turnRight()
+turtle.digDown()
+turtle.forward()
+turtle.turnRight()
+for i = b,1,-1
+do
+    turtle.refuel(64)
+    turtle.digDown()
+    turtle.forward()
+end
+turtle.turnLeft()
+turtle.digDown()
+turtle.forward()
+turtle.turnLeft()
+for  i = b,1,-1
+do
+    turtle.refuel(64)
+    turtle.digDown()
+    turtle.forward()
+end
+turtle.turnRight()
+turtle.digDown()
+turtle.forward()
+turtle.turnRight()
+for i = b,1,-1
+do
+    turtle.refuel(64)
+    turtle.digDown()
+    turtle.forward()
+end
+turtle.turnLeft()
+turtle.digDown()
+turtle.forward()
+turtle.turnLeft()
+for i = b,1,-1
+do
+    turtle.refuel(64)
+    turtle.digDown()
+    turtle.forward()
+end
+turtle.turnRight()
+turtle.digDown()
+turtle.forward()
+turtle.turnRight()
+for i = b,1,-1
+do
+    turtle.refuel(64)
+    turtle.digDown()
+    turtle.forward()
+end
+turtle.turnLeft()
+turtle.digDown()
+turtle.forward()
+turtle.turnLeft()
+for i = b,1,-1
+do
+    turtle.refuel(64)
+    turtle.digDown()
+    turtle.forward()
+end
+turtle.turnRight()
+turtle.digDown()
+turtle.forward()
+turtle.turnRight()
+for i = b,1,-1
+do
+    turtle.refuel(64)
+    turtle.digDown()
+    turtle.forward()
+end
+turtle.turnLeft()
+turtle.digDown()
+turtle.forward()
+turtle.turnLeft()
+for i = b,1,-1
+do
+    turtle.refuel(64)
+    turtle.digDown()
+    turtle.forward()
+end
+turtle.turnRight()
+turtle.digDown()
+turtle.forward()
+turtle.turnRight()
+for i = b,1,-1
+do
+    turtle.refuel(64)
+    turtle.digDown()
+    turtle.forward()
+end
+turtle.turnLeft()
+turtle.digDown()
+turtle.forward()
+turtle.turnLeft()
+for i = b,1,-1
+do
+    turtle.refuel(64)
+    turtle.digDown()
+    turtle.forward()
+end
+turtle.turnRight()
+turtle.digDown()
+turtle.forward()
+turtle.turnRight()
+for i = b,1,-1
+do
+    turtle.refuel(64)
+    turtle.digDown()
+    turtle.forward()
+end
+turtle.turnLeft()
+turtle.digDown()
+turtle.forward()
+turtle.turnLeft()
+for i = b,1,-1
+do
+    turtle.refuel(64)
+    turtle.digDown()
+    turtle.forward()
+end
+turtle.turnRight()
+turtle.digDown()
+turtle.forward()
+turtle.turnRight()
+for i = b,1,-1
+do
+    turtle.refuel(64)
+    turtle.digDown()
+    turtle.forward()
+end
+turtle.digDown()
+turtle.turnRight()
+turtle.forward(b)
+turtle.turnRight()
 end
