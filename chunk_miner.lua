@@ -1,7 +1,7 @@
 (g3NVe5p1)
 print("by wwwqr")
 local a = 16
-local b = 15
+local b = a - 1
 local diep = 10
 for i = diep,1,-1
 do
